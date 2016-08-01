@@ -1,0 +1,709 @@
+html {
+  font-size: 100px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: Arial, Helvetica, STHeiTi, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  background: #F2F2F2;
+  box-sizing: border-box;
+  font-size: 0.12rem;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*------------top开始------------*/
+.search-wrap {
+  width: 100%;
+  height: 0.56rem;
+  background-color: #fabc09;
+  margin: 0 auto;
+  border:1px solid transparent;
+}
+.snfl{
+  float:left;
+    display: block;
+    margin: 0.06rem 0.16640rem 0.05120rem 0.15360rem;
+    width: 0.281563rem;
+    height:0.447969rem;
+    background: url(../img/snfl.png) no-repeat;
+    background-size: .30rem 0.48rem;
+}
+.search-bar{
+  display:inline-block;
+  width:3.57781rem;
+  height:0.54rem;
+  position:relative;
+}
+.search-bar .search{
+  width:100%;
+  height:0.38rem;
+  margin-top:0.1rem;
+  background:#FEF1CE;
+  border-radius:5px;
+  border:none;
+  outline: none;
+  line-height:0.38rem;
+  padding-left:0.4rem;
+  color:#ACAAA3;
+  
+}
+.search-bar span{
+    display:inline-block;
+    width:0.19rem;
+    height:0.19rem;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-left:0.03rem;
+    transform:translateY(-50%);
+    text-align:center;
+    line-height:0.19rem;
+    color:#ACAAA3;
+}
+.my-car{
+  float:right;
+  width:0.6rem;
+  height:0.56rem;
+  background:url(../img/shop.png) no-repeat center center;
+  background-size:0.40rem auto;
+}
+/*------------top结束-----------*/
+/*------------banner----------*/
+.swiper-container {
+  width: 4.8rem;
+  height: 2.30rem;
+  background: darkred;
+}
+.swiper-container .swiper-wrapper {
+  width: 38.4rem!important;
+}
+.swiper-container .swiper-slide {
+  width: 4.80rem!important;
+}
+.swiper-container .swiper-slide img {
+  width: 4.80rem;
+  height: 2.30391rem;
+}
+/*--------------分类------------*/
+.app01 {
+  width: 4.80rem;
+  height: auto;
+  padding-top: 0.16rem;
+  background: #fff;
+  margin: 0 auto;
+}
+.app01 .fix {
+  height: auto;
+  overflow: hidden;
+}
+.app01 .fix li {
+  width: 20%;
+  height: 0.87rem;
+  margin-top: 0.09rem;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.app01 .fix li a {
+  display: block;
+}
+.app01 .fix li img {
+  width: 0.51rem;
+  height: 0.51rem;
+  display: block;
+  margin: 17px auto;
+}
+.app01 .tt {
+  padding: 0.1rem 0rem;
+  display: block;
+  width: 100%;
+  height: 0.665469rem;
+}
+.app01 .title {
+  margin: 0;
+  width: 0.927969rem;
+  height: 0.409531rem;
+  display: inline-block;
+  background: url("../img/title.png") no-repeat center;
+  background-size: contain;
+}
+.app01 .line {
+  width: 1px;
+  height: 0.409531rem;
+  margin: 0 0.1rem;
+  display: inline-block;
+  background: #f2f2f2;
+}
+.app01 .msgcon {
+  width: 2.24rem;
+  height: 0.4rem;
+  display: inline-block;
+  overflow: hidden;
+}
+.app01 .swiper-container1 {
+  width: 2.24rem;
+  height: 0.4rem;
+  font-size: 12px;
+}
+.app01 .swiper-container1 li:first-child {
+  margin-bottom: 0.06rem;
+}
+.app01 .swiper-container1 i {
+  width: 0.05rem;
+  height: 0.05rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.07rem;
+  border-radius: 50%;
+  margin-left: 0.03rem;
+  margin-right: 0.08rem;
+  background: #FFE288;
+}
+.app01 .swiper-container1 li {
+  color: #2d2d2d;
+  font-size: 0.12rem;
+  margin-top: 0.04rem;
+}
+.app02 {
+  width: 4.8rem;
+  margin: 0.12rem auto;
+  background: #fff;
+}
+.app02 .zsq {
+  width: 100%;
+  height: 2.17518rem;
+  overflow: hidden;
+}
+.app02 .zsq .hor-view {
+  width: 100%;
+  height: 0.43rem;
+}
+.app02 .zsq .hor-view .logo {
+  width: 0.72rem;
+  margin-left: 0.12rem;
+  float: left;
+  height: 100%;
+  background: url("../img/zsq.png") no-repeat;
+  background-size: contain;
+  margin-top: 0.05rem;
+}
+.app02 .zsq .hor-view .tag {
+  color: #FB4B4B;
+  font-size: 0.12rem;
+  text-align: center;
+  width: 0.38rem;
+  height: 100%;
+  float: left;
+  line-height: 0.43rem;
+  margin: 0 0.1rem;
+}
+.app02 .zsq .hor-view .count {
+  width: 1.63rem;
+  height: 100%;
+  text-align: left;
+  line-height: 0.43rem;
+  float: left;
+  color: orange;
+}
+.app02 .zsq .hor-view a {
+  width: 0.81rem;
+  height: 100%;
+  box-sizing: border-box;
+  float: right;
+  padding: 0.03rem;
+}
+.app02 .zsq .hor-view a span {
+  display: block;
+  width: 0.6rem;
+  height: 0.21rem;
+  border-radius: 0.8rem;
+  background: #F2B303;
+  text-align: center;
+  line-height: 0.2rem;
+  color: #8D5214;
+  font-size: 0.1rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+.app02 .zsq .hor-view a i {
+  display: block;
+  width: 0.12rem;
+  height: 0.14rem;
+  margin-top: 0.14rem;
+  background: url("../img/jt.png") no-repeat center center;
+  background-size: contain;
+  float: right;
+}
+.app02 .zsq .swiper-container2 {
+  width: 100%;
+  height: 1.58rem;
+}
+.app02 .zsq .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.app02 .zsq .swiper-slide {
+  width: 1.40rem!important;
+  height: 1.50rem;
+  outline: 0.01rem solid #E7E7E7;
+  margin-right: 0.08rem;
+  float: left;
+}
+.app02 .zsq .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app02 .zsq .swiper-slide img {
+  width: 100%;
+  height: 1.08rem;
+  marign: 0 auto;
+  font-size: 0;
+}
+.app02 .zsq .swiper-slide .price {
+  width: 100%;
+  height: 0.45rem;
+  background: #E7E7E7 ;
+  position: relative;
+}
+.app02 .zsq .swiper-slide .gb-price {
+  position: absolute;
+  color: #E76E6E;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 0.99rem;
+  height: 0.25rem;
+  background: #E7E7E7;
+  z-index: 3;
+  padding-top: 0.08rem;
+  padding-left: 0.16rem;
+  box-sizing: border-box;
+}
+.app02 .zsq .swiper-slide .tag-price {
+  font-size: 0.1rem;
+  color: #999;
+  margin-left: 0.16rem;
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0;
+  text-decoration: line-through;
+}
+.app02 .zsq .swiper-slide .sale {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  top: -0.02rem;
+  right: 0.01rem;
+  background: url("../img/jt2.png") no-repeat top center;
+  background-size: contain;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #fff;
+}
+.app02 .wap {
+  width: 4.66rem;
+  margin: 0 auto;
+}
+.app02 .list1 {
+  width: 100%;
+  height: 1.92rem;
+}
+.app02 .list1 a {
+  width: 2.31rem;
+  height: 1.93rem;
+  display: block;
+  margin-bottom: 0.01rem;
+  float: left;
+}
+.app02 .list1 a:first-child {
+  margin-right: 0.01rem;
+}
+.app02 .list1 img {
+  width: 2.31rem;
+  height: 1.93rem;
+}
+.app02 .list2 {
+  width: 100%;
+  height: 1.15rem;
+}
+.app02 .list2 a {
+  width: 2.31rem;
+  height: 1.15rem;
+  display: block;
+  float: left;
+}
+.app02 .list2 a:first-child {
+  margin-right: 0.01rem;
+}
+.app02 .list2 img {
+  width: 2.31rem;
+  height: 1.15rem;
+}
+.app03 {
+  width: 100%;
+  height: 2.58rem;
+  margin-bottom: 0.15rem;
+  margin-top: 0.52rem;
+}
+.app03 .item1 {
+  width: 2.39rem;
+  height: 2.56rem;
+  margin-right: 0.01rem;
+  background: #fff;
+  float: left;
+}
+.app03 .item1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app03 .item1 img {
+  width: 100%;
+  height: 100%;
+}
+.app03 .item2 {
+  width: 2.39rem;
+  height: 0.92rem;
+  float: left;
+  background: #fff;
+  margin-bottom: 0.01rem;
+}
+.app03 .item2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app03 .item2 img {
+  width: 100%;
+  height: 100%;
+}
+.app03 .item3 {
+  width: 2.39rem;
+  height: 1.63rem;
+  float: left;
+}
+.app03 .item3 a {
+  width: 1.19rem;
+  height: 100%;
+  float: left;
+  display: block;
+  background: #fff;
+}
+.app03 .item3 a:first-child {
+  margin-right: 0.01rem;
+}
+.app03 .item3 img {
+  width: 100%;
+  height: 100%;
+}
+.app04 {
+  width: 100%;
+  height: 1.28rem;
+  margin-bottom: 0.56rem;
+}
+.app04 a {
+  display: block;
+  width: 100%;
+  height: 1.28rem!important;
+}
+.app04 img {
+  width: 100%;
+  height: 1.28rem!important;
+  background-size: contain;
+}
+.app5 {
+  width: 100%;
+  height: 1.85rem;
+}
+.app5 .item1 {
+  width: 2.39rem;
+  height: 1.85rem;
+  background: #fff;
+  margin-right: 0.01rem;
+  float: left;
+}
+.app5 .item1 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.app5 .item1 img {
+  width: 2.39rem;
+  height: 1.85rem;
+}
+.app5 .item2 {
+  width: 2.39rem;
+  float: right;
+  height: 100%;
+}
+.app5 .item2 a {
+  display: block;
+  height: 0.92rem;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.app5 .item2 a:first-child {
+  margin-bottom: 0.01rem;
+  background: url("../img/146398841356184788.jpg") no-repeat center center;
+  background-size: contain;
+}
+.app5 .item2 a:last-child {
+  background: url("../img/146400185254475166.jpg") no-repeat center center;
+  background-size: contain;
+}
+.app6 {
+  width: 100%;
+  margin-bottom: 0.15rem;
+  overflow: hidden;
+}
+.app6 .item {
+  width: 2.39rem!important;
+  height: 1.03rem;
+  float: left;
+  margin-top: 0.01rem;
+  background: #fff;
+}
+.app6 .item-1 {
+  margin-right: 0.01rem;
+}
+.app6 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app6 img {
+  width: 100%;
+  height: 100%;
+}
+.app7 {
+  width: 100%;
+  overflow: hidden;
+}
+.app7 .gap {
+  width: 100%;
+  margin-bottom: 0.01rem;
+}
+.app7 .gap .aa {
+  width: 2.39rem;
+  height: 1.92rem;
+  background: #fff;
+  float: left;
+}
+.app7 .gap img:first-child {
+  margin-right: 0.01rem;
+  box-sizing: border-box;
+}
+.app7 a {
+  width: 1.59rem;
+  height: 1.53rem;
+  display: block;
+  float: left;
+  margin-bottom: 0.01rem;
+  background: #fff;
+  box-sizing: border-box;
+}
+.app7 a img {
+  width: 1.59rem;
+  height: 1.53rem;
+  margin: 0;
+  padding: 0;
+}
+.app7 .iem {
+  margin-right: 0.01rem;
+}
+.swiper-container8 {
+  width: 100%;
+  height: 2.29rem;
+  margin-top: 0.43rem;
+  overflow: hidden;
+}
+.swiper-container8 .swiper-wrapper {
+  height: 100%;
+  width: 7.92rem;
+}
+.swiper-container8 .swiper-slide {
+  width: 2.63rem;
+  height: 2.29rem;
+  margin-right: 0.01rem;
+  background: #fff;
+}
+.swiper-container8 .title {
+  width: 2.50rem;
+  height: 0.81rem;
+  background: #fff;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+.swiper-container8 .tit1 {
+  width: 0.51rem;
+  height: 0.51rem;
+  margin-top: 0.14rem;
+  display: block;
+  float: left;
+}
+.swiper-container8 .tit1 img{
+  width:100%;
+}
+.swiper-container8 .tit2 {
+  display: inline-block;
+  width: 1.60rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  font-size: 0.14rem;
+  margin-left: 0.04rem;
+  margin-top: 0.14rem;
+  color: #3E3E3E;
+  padding-left: 0.04rem;
+}
+.swiper-container8 .tit3 {
+  display: inline-block;
+  width: 1.60rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  font-size: 0.12rem;
+  margin-left: 0.04rem;
+  color: #B1B1B1;
+  padding-left: 0.08rem;
+}
+.swiper-container8 .content .cot1 {
+  width: 1.47rem;
+  height: 1.47rem;
+  border: 0.01rem solid #eeeeee;
+  background: aquamarine;
+  float: left;
+  margin-right: 0.01rem;
+}
+.swiper-container8 .content .con2 {
+  float: left;
+  width: 0.72rem;
+  height: 100%;
+}
+.swiper-container8 .content .con2 img {
+  width: 0.72rem;
+  height: 0.72rem;
+  border: 0.01rem solid #eeeeee;
+  background: aquamarine;
+}
+.swiper-container8 .content .con2 img:first-child {
+  margin-bottom: 0.01rem;
+}
+.cnxh {
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+}
+.cnxh .cnxh-title {
+  width: 4.54rem;
+  height: 0.26rem;
+  margin: 0.16rem 0.13rem;
+}
+.cnxh-title .title-con {
+  width: 1.41rem;
+  height: 0.3rem;
+  padding: 0  0.13rem;
+  margin: 0 auto;
+  /*background: black;*/
+  font-size: 0.18rem;
+  color: #353d44;
+  line-height: 0.32rem;
+  border: 1px solid #f2f2f2;
+}
+.cnxh-title .title-con .icon {
+  display: block;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #C4C4C4;
+  border-radius: 50%;
+  background-image: url(../img/ax.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 0.1rem;
+}
+.cnxh-con {
+  width: 100%;
+  height: 3.11rem ;
+}
+.cnxh-con ul li {
+  width: 2.21rem;
+  height: 3.11rem;
+  display: block;
+  margin-left: 0.13rem;
+  /*background: red;*/
+  float: left;
+}
+.cnxh-con ul li a {
+  display: block;
+  width: 2.2rem;
+  height: 2.22rem;
+}
+.cnxh-con ul li a img {
+  width: 2.2rem;
+  height: 2.22rem;
+}
+.cnxh-con ul li .info {
+  width: 2.20rem;
+  height: 0.89rem;
+  background: #fff;
+  padding: 0.06rem;
+}
+.cnxh-con ul li .info .info-con {
+  height: 0.46rem;
+  color: #333;
+  font-size: 0.16rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 0.2rem;
+}
+.info .price {
+  width: 2.08rem;
+  height: auto;
+  font-size: 0.2rem;
+  color: #e21d1d;
+}
+.app-down {
+  width: 100%;
+  height: 0.96rem;
+  margin-top: 0.12rem;
+}
+.app-down a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app-down img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  width: 100%;
+  height: 0.61rem;
+  background: #eeeeee;
+}
+.footer .wbox li {
+  width: 0.92rem;
+  height: 0.61rem;
+  float: left;
+}
